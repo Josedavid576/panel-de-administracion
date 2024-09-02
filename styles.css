@@ -101,3 +101,25 @@ body {
     color: white;
     cursor: pointer;
 }
+.main-content {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects {
+    grid-column: 1 / 3;
+}
+
+.announcements {
+    grid-column: 3 / 4;
+}
+
+.trending {
+    grid-column: 1 / 4;
+    margin-top: 20px;
+}
+.project {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
